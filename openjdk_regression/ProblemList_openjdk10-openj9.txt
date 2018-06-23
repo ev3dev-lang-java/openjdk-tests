@@ -668,6 +668,23 @@ java/time/test/java/time/chrono/TestIsoChronoImpl.java 440 linux-arm
 java/time/test/java/time/chrono/TestJapaneseChronoImpl.java 440 linux-arm
 java/time/test/java/time/chrono/TestThaiBuddhistChronoImpl.java 440 linux-arm
 java/time/test/java/time/format/TestZoneTextPrinterParser.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKChronoLocalDate.java
+java/time/tck/java/time/chrono/TCKChronoLocalDateTime.java
+java/time/tck/java/time/format/TCKDateTimeFormatters.java
+java/time/tck/java/time/format/TCKZoneIdPrinterParser.java
+java/time/tck/java/time/format/TCKDateTimeParseResolver.java
+java/time/tck/java/time/format/TCKResolverStyle.java
+java/time/tck/java/time/serial/TCKClockSerialization.java
+java/time/tck/java/time/format/TCKLocalizedFieldParser.java
+java/time/tck/java/time/format/TCKSignStyle.java
+java/time/tck/java/time/serial/TCKLocalDateTimeSerialization.java
+java/time/tck/java/time/serial/TCKLocalDateSerialization.java
+java/time/tck/java/time/serial/TCKMonthDaySerialization.java
+java/time/tck/java/time/serial/TCKLocalTimeSerialization.java
+java/time/tck/java/time/serial/TCKYearMonthSerialization.java
+java/time/tck/java/time/serial/TCKPeriodSerialization.java
+java/time/tck/java/time/serial/TCKOffsetTimeSerialization.java
+java/time/tck/java/time/serial/TCKOffsetDateTimeSerialization.java
 
 ############################################################################
 
