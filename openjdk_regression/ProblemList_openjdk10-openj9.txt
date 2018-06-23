@@ -108,6 +108,15 @@ java/math/BigInteger/PrimeTest.java 440 linux-arm
 
 # jdk_other
 
+javax/naming/module/basic.sh 440 linux-arm
+com/sun/corba/7130985/CorbaExceptionsCompileTest.java 440 linux-arm
+javax/naming/spi/providers/InitialContextTest.java 440 linux-arm
+javax/xml/bind/jxc/8046817/GenerateEnumSchema.java 440 linux-arm
+javax/xml/bind/xjc/8032884/XjcOptionalPropertyTest.java 440 linux-arm
+javax/xml/ws/8033113/WsImportTest.java 440 linux-arm
+javax/xml/ws/clientjar/TestWsImport.java 440 linux-arm
+javax/xml/ws/xsanymixed/Test.java 440 linux-arm
+
 ############################################################################
 
 # jdk_net
