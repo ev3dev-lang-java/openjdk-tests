@@ -22,6 +22,73 @@
 
 # jdk_lang
 
+java/lang/annotation/loaderLeak/Main.java 440 linux-arm
+java/lang/Class/getEnclosingClass/EnclosingClassTest.java 440 linux-arm
+java/lang/ClassLoader/nativeLibrary/NativeLibraryTest.java 440 linux-arm
+java/lang/Class/getDeclaredField/FieldSetAccessibleTest.java 440 linux-arm
+java/lang/invoke/MethodHandles/CatchExceptionTest.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestByteArrayAsChar.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestByteArrayAsDouble.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestByteArrayAsFloat.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestByteArrayAsInt.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestByteArrayAsLong.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestByteArrayAsShort.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessBoolean.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessByte.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessChar.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessDouble.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessFloat.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessInt.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessLong.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessShort.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessString.java 440 linux-arm
+java/lang/invoke/PermuteArgsTest.java 440 linux-arm
+java/lang/invoke/TestCatchExceptionWithVarargs.java 440 linux-arm
+java/lang/invoke/VarargsArrayTest.java 440 linux-arm
+java/lang/Long/ToString.java 440 linux-arm
+java/lang/Math/IeeeRecommendedTests.java 440 linux-arm
+java/lang/ProcessBuilder/InheritIO/InheritIO.sh 440 linux-arm
+java/lang/ProcessBuilder/Basic.java 440 linux-arm
+java/lang/ProcessHandle/Basic.java 440 linux-arm
+java/lang/ProcessHandle/InfoTest.java 440 linux-arm
+java/lang/ProcessHandle/OnExitTest.java 440 linux-arm
+java/lang/ProcessHandle/PermissionTest.java 440 linux-arm
+java/lang/ProcessHandle/TreeTest.java 440 linux-arm
+java/lang/ref/ReachabilityFenceTest.java 440 linux-arm
+java/lang/ProcessBuilder/SkipTest.java 440 linux-arm
+java/lang/Runtime/exec/ArgWithSpaceAndFinalBackslash.java 440 linux-arm
+java/lang/Runtime/exec/ExitValue.java 440 linux-arm
+java/lang/SecurityManager/modules/CustomSecurityManager.sh 440 linux-arm
+java/lang/reflect/PublicMethods/PublicMethodsTest.java 440 linux-arm
+java/lang/String/nativeEncoding/StringPlatformChars.java 440 linux-arm
+java/lang/String/concat/StringConcatFactoryInvariants.java 440 linux-arm
+java/lang/String/Split.java 440 linux-arm
+java/lang/invoke/MethodHandlesTest.java 440 linux-arm
+java/lang/System/LoggerFinder/modules/JDKLoggerForImageTest.java 440 linux-arm
+java/lang/System/LoggerFinder/modules/LoggerInImageTest.java 440 linux-arm
+java/lang/System/LoggerFinder/modules/NamedLoggerForImageTest.java 440 linux-arm
+java/lang/System/SetPropertiesNull.java 440 linux-arm
+java/lang/Thread/UncaughtExceptions.sh 440 linux-arm
+java/lang/Thread/ThreadStateTest.java 440 linux-arm
+jdk/internal/misc/VM/RuntimeArguments.java 440 linux-arm
+jdk/internal/math/FloatingDecimal/TestFloatingDecimal.java 440 linux-arm
+jdk/internal/reflect/Reflection/GetCallerClassTest.sh 440 linux-arm
+sun/misc/JarIndex/JarIndexMergeForClassLoaderTest.java 440 linux-arm
+jdk/modules/incubator/ImageModules.java 440 linux-arm
+java/lang/System/LoggerFinder/modules/UnnamedLoggerForImageTest.java 440 linux-arm
+jdk/internal/jimage/JImageReadTest.java 440 linux-arm
+java/lang/String/concat/ImplicitStringConcatMany.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestAccessString.java 440 linux-arm
+java/lang/Runtime/exec/ExecWithInput.java 440 linux-arm
+java/lang/String/concat/WithSecurityManager.java 440 linux-arm
+java/lang/System/LoggerFinder/LoggerFinderAPI/LoggerFinderAPI.java 440 linux-arm
+java/lang/StackWalker/NativeMethod.java 440 linux-arm
+java/lang/Character/CharacterName.java 440 linux-arm
+java/lang/Double/ParseDouble.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestAccessChar.java 440 linux-arm
+java/lang/invoke/VarHandles/VarHandleTestAccessShort.java 440 linux-arm
+sun/misc/CopyMemory.java 440 linux-arm
+
 ############################################################################
 
 # jdk_management
@@ -34,7 +101,8 @@
 
 # jdk_math
 
-java/math/BigInteger/PrimeTest.java 440 linux_arm
+java/math/BigInteger/BigIntegerTest.java 440 linux-arm
+java/math/BigInteger/PrimeTest.java 440 linux-arm
 
 ############################################################################
 
@@ -44,9 +112,99 @@ java/math/BigInteger/PrimeTest.java 440 linux_arm
 
 # jdk_net
 
+com/sun/net/httpserver/Test9a.java 440 linux-arm
+java/net/httpclient/http2/ContinuationFrameTest.java 440 linux-arm
+java/net/httpclient/http2/HpackBinaryTestDriver.java 440 linux-arm
+java/net/httpclient/http2/HpackCircularBufferDriver.java 440 linux-arm
+java/net/httpclient/http2/HpackEncoderDriver.java 440 linux-arm
+java/net/httpclient/http2/HpackHuffmanDriver.java 440 linux-arm
+java/net/httpclient/websocket/HeaderWriterDriver.java 440 linux-arm
+java/net/httpclient/websocket/MaskerDriver.java 440 linux-arm
+java/net/httpclient/websocket/ReaderDriver.java 440 linux-arm
+java/net/httpclient/whitebox/FlowTestDriver.java 440 linux-arm
+java/net/httpclient/whitebox/SSLEchoTubeTestDriver.java 440 linux-arm
+java/net/httpclient/whitebox/SSLTubeTestDriver.java 440 linux-arm
+java/net/httpclient/BufferingSubscriberTest.java 440 linux-arm
+java/net/httpclient/CustomRequestPublisher.java 440 linux-arm
+java/net/httpclient/ConcurrentResponses.java 440 linux-arm
+java/net/httpclient/CustomResponseSubscriber.java 440 linux-arm
+java/net/httpclient/FlowAdapterSubscriberTest.java 440 linux-arm
+java/net/httpclient/FlowAdapterPublisherTest.java 440 linux-arm
+java/net/httpclient/ManyRequests.java 440 linux-arm
+java/net/httpclient/ManyRequests2.java 440 linux-arm
+java/net/httpclient/NoBodyPartOne.java 440 linux-arm
+java/net/httpclient/NoBodyPartTwo.java 440 linux-arm
+java/net/httpclient/SplitResponseSSL.java 440 linux-arm
+java/net/ipv6tests/TcpTest.java 440 linux-arm
+java/net/ipv6tests/UdpTest.java 440 linux-arm
+java/net/MulticastSocket/NetworkInterfaceEmptyGetInetAddressesTest.java 440 linux-arm
+java/net/MulticastSocket/TestDefaults.java 440 linux-arm
+java/net/SocketOption/OptionsTest.java 440 linux-arm
+java/net/SocketOption/UnsupportedOptionsTest.java 440 linux-arm
+sun/net/www/http/HttpClient/MultiThreadTest.java 440 linux-arm
+java/net/httpclient/RequestBodyTest.java 440 linux-arm
+java/net/InetAddress/IsReachable.java 440 linux-arm
+java/net/InetAddress/IsReachableViaLoopbackTest.java 440 linux-arm
+java/net/Socket/SetSoLinger.java 440 linux-arm
+com/sun/net/httpserver/SelCacheTest.java 440 linux-arm
+java/net/httpclient/http2/FixedThreadPoolTest.java 440 linux-arm
+java/net/httpclient/http2/HpackDecoderDriver.java 440 linux-arm
+java/net/spi/URLStreamHandlerProvider/Basic.java 440 linux-arm
+java/net/URLClassLoader/sealing/CheckSealedTest.java 440 linux-arm
+java/net/DatagramSocket/B6411513.java 440 linux-arm
+java/net/BindException/Test.java 440 linux-arm
+java/net/DatagramSocket/PortUnreachable.java 440 linux-arm
+java/net/Inet4Address/PingThis.java 440 linux-arm
+java/net/Inet6Address/serialize/Inet6AddressSerializationTest.java 440 linux-arm
+java/net/DatagramSocket/LocalSocketAddress.java 440 linux-arm
+java/net/Inet6Address/serialize/Inet6AddressSerializationTest.java 440 linux-arm
+java/net/Inet6Address/serialize/Serialize.java 440 linux-arm
+java/net/Inet6Address/B4923906.java 440 linux-arm
+java/net/Inet6Address/B6206527.java 440 linux-arm
+java/net/Inet6Address/StringScope.java 440 linux-arm
+java/net/Inet6Address/B6558853.java 440 linux-arm
+java/net/InetAddress/ptr/Lookup.java 440 linux-arm
+java/net/InetAddress/CheckJNI.java 440 linux-arm
+java/net/InterfaceAddress/NetworkPrefixLength.java 440 linux-arm
+java/net/MulticastSocket/B6427403.java 440 linux-arm
+java/net/ipv6tests/ScopeTests.java 440 linux-arm
+java/net/ipv6tests/B6521014.java 440 linux-arm
+java/net/MulticastSocket/JoinLeave.java 440 linux-arm
+java/net/MulticastSocket/NoLoopbackPackets.java 440 linux-arm
+java/net/MulticastSocket/SetGetNetworkInterfaceTest.java 440 linux-arm
+java/net/MulticastSocket/Promiscuous.java 440 linux-arm
+java/net/MulticastSocket/SetOutgoingIf.java 440 linux-arm
+java/net/MulticastSocket/Test.java 440 linux-arm
+java/net/NetworkInterface/Equals.java 440 linux-arm
+java/net/NetworkInterface/IndexTest.java 440 linux-arm
+java/net/NetworkInterface/GetMacAddress.java 440 linux-arm
+java/net/MulticastSocket/SetLoopbackMode.java 440 linux-arm
+java/net/NetworkInterface/IPv4Only.java 440 linux-arm
+java/net/NetworkInterface/NetParamsTest.java 440 linux-arm
+java/net/MulticastSocket/TestInterfaces.java 440 linux-arm
+java/net/NetworkInterface/SubNetworkInterfaceTest.java 440 linux-arm
+java/net/NetworkInterface/Test.java 440 linux-arm
+java/net/NetworkInterface/UniqueMacAddressesTest.java 440 linux-arm
+java/net/NetworkInterface/NetworkInterfaceStreamTest.java 440 linux-arm
+java/net/ServerSocket/AcceptInheritHandle.java 440 linux-arm
+java/net/Socket/LinkLocal.java 440 linux-arm
+java/net/SocketPermission/SocketPermissionTest.java 440 linux-arm
+java/net/URLConnection/ContentHandlers/ContentHandlersTest.java 440 linux-arm
+java/net/NetworkConfigurationProbe.java 440 linux-arm
+sun/net/www/protocol/http/ZoneId.java 440 linux-arm
+sun/net/www/protocol/https/HttpsURLConnection/B6216082.java 440 linux-arm
+com/sun/net/httpserver/Test1.java 440 linux-arm
+com/sun/net/httpserver/Test9.java 440 linux-arm
+com/sun/net/httpserver/bugs/B6393710.java 440 linux-arm
+
 ############################################################################
 
 # jdk_io
+
+java/io/CharArrayReader/OverflowInRead.java 440 linux-arm
+java/io/DataInputStream/ReadUTF.java 440 linux-arm
+java/io/StringBufferInputStream/OverflowInRead.java 440 linux-arm
+java/io/File/DeleteOnExitNPE.java 440 linux-arm
 
 ############################################################################
 
@@ -56,13 +214,393 @@ java/math/BigInteger/PrimeTest.java 440 linux_arm
 
 # jdk_nio
 
+java/nio/channels/DatagramChannel/ReceiveISA.java 440 linux-arm
+java/nio/channels/FileChannel/directio/DirectIOTest.java 440 linux-arm
+java/nio/channels/ServerSocketChannel/SocketOptionTests.java 440 linux-arm
+java/nio/channels/SocketChannel/AsyncCloseChannel.java 440 linux-arm
+java/nio/channels/FileChannel/ExpandingMap.java 440 linux-arm
+java/nio/channels/SocketChannel/SocketOptionTests.java 440 linux-arm
+java/nio/channels/FileChannel/ReleaseOnCloseDeadlock.java 440 linux-arm
+java/nio/charset/Charset/DefaultCharsetTest.java 440 linux-arm
+java/nio/channels/SocketChannel/ShortWrite.java 440 linux-arm
+java/nio/file/Files/DeleteOnClose.java 440 linux-arm
+java/nio/file/Files/InterruptCopy.java 440 linux-arm
+java/nio/file/Files/Links.java 440 linux-arm
+java/nio/file/Files/Misc.java 440 linux-arm
+java/nio/file/Files/NameLimits.java 440 linux-arm
+java/nio/file/Files/StreamLinesTest.java 440 linux-arm
+java/nio/file/Files/StreamTest.java 440 linux-arm
+java/nio/file/FileStore/Basic.java 440 linux-arm
+java/nio/file/FileSystem/Basic.java 440 linux-arm
+java/nio/file/Path/Misc.java 440 linux-arm
+java/nio/file/Path/PathOps.java 440 linux-arm
+java/nio/file/Path/UriImportExport.java 440 linux-arm
+java/nio/file/spi/SetDefaultProvider.java 440 linux-arm
+java/nio/file/WatchService/DeleteInterference.java 440 linux-arm
+java/nio/file/WatchService/FileTreeModifier.java 440 linux-arm
+java/nio/file/WatchService/LotsOfCancels.java 440 linux-arm
+java/nio/file/WatchService/LotsOfCloses.java 440 linux-arm
+java/nio/file/WatchService/LotsOfEvents.java 440 linux-arm
+java/nio/file/WatchService/MayFlies.java 440 linux-arm
+java/nio/file/WatchService/SensitivityModifier.java 440 linux-arm
+java/nio/file/WatchService/UpdateInterference.java 440 linux-arm
+java/nio/file/WatchService/WithSecurityManager.java 440 linux-arm
+java/nio/MappedByteBuffer/Basic.java 440 linux-arm
+java/nio/MappedByteBuffer/Force.java 440 linux-arm
+java/nio/MappedByteBuffer/Truncate.java 440 linux-arm
+java/nio/MappedByteBuffer/ZeroMap.java 440 linux-arm
+jdk/nio/zipfs/jarfs/JFSTester.java 440 linux-arm
+jdk/nio/zipfs/Basic.java 440 linux-arm
+jdk/nio/zipfs/MultiReleaseJarTest.java 440 linux-arm
+java/nio/file/Files/FileAttributes.java 440 linux-arm
+jdk/nio/zipfs/PathOps.java 440 linux-arm
+jdk/nio/zipfs/ZipFSTester.java 440 linux-arm
+sun/nio/ch/SelProvider.java 440 linux-arm
+sun/nio/ch/ServerSocketAdaptorTest.java 440 linux-arm
+sun/nio/ch/TempBuffer.java 440 linux-arm
+java/nio/file/Files/CopyAndMove.java 440 linux-arm
+sun/nio/cs/OLD/TestIBMDB.java 440 linux-arm
+sun/nio/cs/BufferUnderflowEUCTWTest.java 440 linux-arm
+sun/nio/cs/CheckHistoricalNames.java 440 linux-arm
+sun/nio/cs/CheckICNE.java 440 linux-arm
+sun/nio/cs/ConvertSingle.java 440 linux-arm
+sun/nio/cs/DecoderOverflow.java 440 linux-arm
+sun/nio/cs/EncodingNothing.java 440 linux-arm
+sun/nio/cs/EucJpLinux0212.java 440 linux-arm
+sun/nio/cs/EucJpLinuxDecoderRecoveryTest.java 440 linux-arm
+sun/nio/cs/EUCJPUnderflowDecodeTest.java 440 linux-arm
+sun/nio/cs/FindASCIICodingBugs.java 440 linux-arm
+sun/nio/cs/FindASCIIRangeCodingBugs.java 440 linux-arm
+java/nio/channels/AsyncCloseAndInterrupt.java 440 linux-arm
+java/nio/charset/coders/BashStreams.java 440 linux-arm
+sun/nio/cs/StreamEncoderClose.java 440 linux-arm
+sun/nio/cs/StreamEncoderOut.java 440 linux-arm
+sun/nio/cs/SurrogateGB18030Test.java 440 linux-arm
+sun/nio/cs/SurrogateTestEUCTW.java 440 linux-arm
+sun/nio/cs/SurrogateTestHKSCS.java 440 linux-arm
+sun/nio/cs/Test4206507.java 440 linux-arm
+sun/nio/cs/Test6254467.java 440 linux-arm
+sun/nio/cs/TestCharsetMapping.java 440 linux-arm
+sun/nio/cs/TestConverterDroppedCharacters.java 440 linux-arm
+sun/nio/cs/TestCp834_SBCS.java 440 linux-arm
+sun/nio/cs/TestCp93xSISO.java 440 linux-arm
+sun/nio/cs/TestEBCDICLineFeed.java 440 linux-arm
+sun/nio/cs/TestEUC_TW.java 440 linux-arm
+sun/nio/cs/TestHKSCS.java 440 linux-arm
+sun/nio/cs/TestIBM1364.java 440 linux-arm
+sun/nio/cs/TestIllegalISO2022Esc.java 440 linux-arm
+sun/nio/cs/TestIllegalSJIS.java 440 linux-arm
+sun/nio/cs/TestISO2022CNDecoder.java 440 linux-arm
+sun/nio/cs/TestISO2022JP.java 440 linux-arm
+sun/nio/cs/TestISO2022JPEncoder.java 440 linux-arm
+sun/nio/cs/TestISO2022JPSubBytes.java 440 linux-arm
+sun/nio/cs/TestJIS0208Decoder.java 440 linux-arm
+sun/nio/cs/TestJIS0212Decoder.java 440 linux-arm
+sun/nio/cs/TestMiscEUC_JP.java 440 linux-arm
+sun/nio/cs/TestSJIS0213_SM.java 440 linux-arm
+sun/nio/cs/TestStringCoding.java 440 linux-arm
+sun/nio/cs/TestStringCodingUTF8.java 440 linux-arm
+sun/nio/cs/TestTrailingEscapesISO2022JP.java 440 linux-arm
+sun/nio/cs/TestUni2HKSCS.java 440 linux-arm
+sun/nio/cs/TestUTF_16.java 440 linux-arm
+sun/nio/cs/TestUTF8.java 440 linux-arm
+sun/nio/cs/TestUTF8BOM.java 440 linux-arm
+sun/nio/cs/UkrainianIsNotRussian.java 440 linux-arm
+sun/nio/cs/ZeroedByteArrayEUCTWTest.java 440 linux-arm
+java/nio/channels/FileChannel/Transfers.java 440 linux-arm
+sun/nio/cs/FindOneCharEncoderBugs.java 440 linux-arm
+sun/nio/cs/FindEncoderBugs.java 440 linux-arm
+sun/nio/cs/FindDecoderBugs.java 440 linux-arm
+java/nio/channels/DatagramChannel/SocketOptionTests.java 440 linux-arm
+java/nio/channels/DatagramChannel/MulticastSendReceiveTests.java 440 linux-arm
+sun/nio/ch/TestMaxCachedBufferSize.java 440 linux-arm
+java/nio/file/WatchService/Basic.java 440 linux-arm
+java/nio/channels/DatagramChannel/BasicMulticastTests.java 440 linux-arm
+java/nio/channels/DatagramChannel/MulticastSendReceiveTests.java 440 linux-arm
+java/nio/channels/DatagramChannel/Promiscuous.java 440 linux-arm
+java/nio/channels/FileChannel/directio/WriteDirect.java 440 linux-arm
+java/nio/channels/FileChannel/directio/PreadDirect.java 440 linux-arm
+java/nio/channels/FileChannel/directio/ReadDirect.java 440 linux-arm
+java/nio/channels/FileChannel/directio/PwriteDirect.java 440 linux-arm
+java/nio/channels/Selector/CloseWhenKeyIdle.java 440 linux-arm
+java/nio/channels/SocketChannel/AdaptSocket.java 440 linux-arm
+java/nio/channels/SelectionKey/AtomicAttachTest.java 440 linux-arm
+java/nio/channels/SocketChannel/Shutdown.java 440 linux-arm
+java/nio/file/attribute/BasicFileAttributeView/UnixSocketFile.java 440 linux-arm
+java/nio/file/DirectoryStream/SecureDS.java 440 linux-arm
+java/nio/file/Files/CheckPermissions.java 440 linux-arm
+java/nio/file/Files/TemporaryFiles.java 440 linux-arm
+java/nio/channels/FileChannel/InterruptDeadlock.java 440 linux-arm
+
 ############################################################################
 
 # jdk_rmi
 
 ############################################################################
 
-# jdk_security
+# jdk_security1
+
+java/security/KeyPairGenerator/FinalizeHalf.java 440 linux-arm
+java/security/KeyPairGenerator/SolarisShortDSA.java 440 linux-arm
+java/security/KeyPairGenerator/Failover.java 440 linux-arm
+java/security/KeyStore/PKCS12/ConvertP12Test.java 440 linux-arm
+java/security/KeyStore/PKCS12/EntryProtectionTest.java 440 linux-arm
+java/security/KeyStore/PKCS12/WriteP12Test.java 440 linux-arm
+java/security/KeyStore/PBETest.java 440 linux-arm
+java/security/KeyStore/ProbeKeystores.java 440 linux-arm
+java/security/Policy/ExtensiblePolicy/ExtensiblePolicyWithJarTest.java 440 linux-arm
+java/security/KeyStore/TestKeyStoreEntry.java 440 linux-arm
+java/security/KeyStore/TestKeyStoreBasic.java 440 linux-arm
+java/security/MessageDigest/TestSameLength.java 440 linux-arm
+java/security/Policy/SignedJar/SignedJarTest.java 440 linux-arm
+java/security/PermissionCollection/Concurrent.java 440 linux-arm
+java/security/MessageDigest/TestDigestIOStream.java 440 linux-arm
+java/security/Security/ClassLoaderDeadlock/ClassLoaderDeadlock.sh 440 linux-arm
+java/security/Security/signedfirst/Dyn.sh 440 linux-arm
+java/security/Security/signedfirst/Static.sh 440 linux-arm
+java/security/SecureRandom/NoSync.java 440 linux-arm
+java/security/Security/SynchronizedAccess.java 440 linux-arm
+java/security/SecureRandom/ApiTest.java 440 linux-arm
+java/security/Signature/SignatureLength.java 440 linux-arm
+java/security/SignedObject/Chain.java 440 linux-arm
+java/security/SignedObject/Correctness.java 440 linux-arm
+java/security/cert/CertificateFactory/slowstream.sh 440 linux-arm
+java/security/AccessController/DoPrivAccompliceTest.java 440 linux-arm
+java/security/KeyStore/PKCS12/KeytoolReaderP12Test.java 440 linux-arm
+java/security/KeyStore/PKCS12/KeytoolWriteP12Test.java 440 linux-arm
+java/security/KeyStore/PKCS12/MetadataStoreLoadTest.java 440 linux-arm
+java/security/KeyStore/PKCS12/MetadataEmptyTest.java 440 linux-arm
+java/security/KeyStore/PKCS12/StoreTrustedCertAPITest.java 440 linux-arm
+java/security/KeyStore/PKCS12/StoreTrustedCertKeytool.java 440 linux-arm
+java/security/KeyStore/ProbeKeystores.java 440 linux-arm
+java/security/Policy/ExtensiblePolicy/ExtensiblePolicyWithJarTest.java 440 linux-arm
+java/security/KeyStore/TestKeyStoreEntry.java 440 linux-arm
+java/security/MessageDigest/TestSameLength.java 440 linux-arm
+java/security/Policy/SignedJar/SignedJarTest.java 440 linux-arm
+java/security/PermissionCollection/Concurrent.java 440 linux-arm
+java/security/MessageDigest/TestDigestIOStream.java 440 linux-arm
+java/security/Security/ClassLoaderDeadlock/ClassLoaderDeadlock.sh 440 linux-arm
+java/security/Security/signedfirst/Dyn.sh 440 linux-arm
+java/security/Security/signedfirst/Static.sh 440 linux-arm
+
+# jdk_security2
+
+com/sun/crypto/provider/CICO/PBEFunc/CICOPBEFuncTest.java
+com/sun/crypto/provider/Cipher/AES/TestAESCiphers/TestAESWithDefaultProvider.java
+com/sun/crypto/provider/Cipher/AES/TestAESCiphers/TestAESWithProviderChange.java
+com/sun/crypto/provider/Cipher/AES/TestAESCiphers/TestAESWithRemoveAddProvider.java
+com/sun/crypto/provider/Cipher/AES/CICO.java
+com/sun/crypto/provider/Cipher/AES/TestGHASH.java
+com/sun/crypto/provider/Cipher/Blowfish/TestCipherBlowfish.java
+com/sun/crypto/provider/Cipher/KeyWrap/TestCipherKeyWrapperTest.java
+com/sun/crypto/provider/Cipher/PBE/PBESameBuffer/PBESameBuffer.java
+com/sun/crypto/provider/Cipher/PBE/PBES2Test.java
+com/sun/crypto/provider/Cipher/PBE/PBESealedObject.java
+com/sun/crypto/provider/Cipher/PBE/PBMacBuffer.java
+com/sun/crypto/provider/Cipher/PBE/PBMacDoFinalVsUpdate.java
+com/sun/crypto/provider/Cipher/PBE/TestCipherKeyWrapperPBEKey.java
+com/sun/crypto/provider/Cipher/RSA/TestOAEPPadding.java
+com/sun/crypto/provider/Cipher/TextLength/TestCipherTextLength.java
+com/sun/crypto/provider/KeyAgreement/SameDHKeyStressTest.java
+com/sun/crypto/provider/KeyAgreement/SupportedDHKeys.java
+javax/crypto/CryptoPermissions/TestExemption.sh
+javax/crypto/SecretKeyFactory/FailOverTest.sh
+com/sun/crypto/provider/KeyAgreement/SupportedDHParamGens.java
+javax/xml/crypto/dsig/SecurityManager/XMLDSigWithSecMgr.java
+javax/xml/crypto/dsig/GenerationTests.java
+javax/crypto/SecretKeyFactory/FailOverTest.sh
+
+# jdk_security3
+
+javax/net/ssl/DTLS/DTLSBufferOverflowUnderflowTest.java 440 linux-arm
+javax/net/ssl/DTLS/DTLSDataExchangeTest.java 440 linux-arm
+javax/net/ssl/DTLS/DTLSEnginesClosureTest.java 440 linux-arm
+javax/net/ssl/DTLS/DTLSHandshakeTest.java 440 linux-arm
+javax/net/ssl/DTLS/DTLSHandshakeWithReplicatedPacketsTest.java 440 linux-arm
+javax/net/ssl/DTLS/DTLSIncorrectAppDataTest.java 440 linux-arm
+javax/net/ssl/DTLS/DTLSMFLNTest.java 440 linux-arm
+javax/net/ssl/DTLS/DTLSRehandshakeTest.java 440 linux-arm
+javax/net/ssl/DTLS/DTLSRehandshakeWithDataExTest.java 440 linux-arm
+javax/net/ssl/DTLS/DTLSRehandshakeWithCipherChangeTest.java 440 linux-arm
+javax/net/ssl/DTLS/DTLSSequenceNumberTest.java 440 linux-arm
+javax/net/ssl/DTLSv10/DTLSv10BufferOverflowUnderflowTest.java 440 linux-arm
+javax/net/ssl/DTLSv10/DTLSv10DataExchangeTest.java 440 linux-arm
+javax/net/ssl/DTLSv10/DTLSv10EnginesClosureTest.java 440 linux-arm
+javax/net/ssl/DTLSv10/DTLSv10HandshakeWithReplicatedPacketsTest.java 440 linux-arm
+javax/net/ssl/DTLS/WeakCipherSuite.java 440 linux-arm
+javax/net/ssl/DTLSv10/DTLSv10IncorrectAppDataTest.java 440 linux-arm
+javax/net/ssl/DTLSv10/DTLSv10MFLNTest.java 440 linux-arm
+javax/net/ssl/DTLSv10/DTLSv10RehandshakeTest.java 440 linux-arm
+javax/net/ssl/DTLSv10/DTLSv10RehandshakeWithCipherChangeTest.java 440 linux-arm
+javax/net/ssl/DTLSv10/DTLSv10RehandshakeWithDataExTest.java 440 linux-arm
+javax/net/ssl/DTLSv10/DTLSv10SequenceNumberTest.java 440 linux-arm
+javax/net/ssl/sanity/interop/ClientJSSEServerJSSE.java 440 linux-arm
+javax/net/ssl/ServerName/SSLSocketSNISensitive.java 440 linux-arm
+javax/net/ssl/templates/SSLSocketSSLEngineTemplate.java  440 linux-arm
+javax/net/ssl/TLS/TestJSSEClientProtocol.java 440 linux-arm
+javax/net/ssl/Stapling/HttpsUrlConnClient.java 440 linux-arm
+javax/net/ssl/Stapling/SSLSocketWithStapling.java 440 linux-arm
+javax/net/ssl/Stapling/StapleEnableProps.java 440 linux-arm
+javax/net/ssl/TLS/TLSDataExchangeTest.java 440 linux-arm
+javax/net/ssl/TLS/TLSEnginesClosureTest.java 440 linux-arm
+javax/net/ssl/TLS/TLSHandshakeTest.java 440 linux-arm
+javax/net/ssl/TLS/TLSMFLNTest.java 440 linux-arm
+javax/net/ssl/TLS/TLSRehandshakeTest.java 440 linux-arm
+javax/net/ssl/TLS/TLSRehandshakeWithDataExTest.java 440 linux-arm
+javax/net/ssl/TLSv1/TLSDataExchangeTest.java 440 linux-arm
+javax/net/ssl/TLSv1/TLSHandshakeTest.java 440 linux-arm
+javax/net/ssl/TLSv1/TLSEnginesClosureTest.java 440 linux-arm
+javax/net/ssl/TLSv1/TLSRehandshakeTest.java 440 linux-arm
+javax/net/ssl/TLSv1/TLSRehandshakeWithDataExTest.java 440 linux-arm
+javax/net/ssl/TLSv11/TLSDataExchangeTest.java 440 linux-arm
+javax/net/ssl/TLSv11/TLSHandshakeTest.java 440 linux-arm
+javax/net/ssl/TLSv11/TLSMFLNTest.java 440 linux-arm
+javax/net/ssl/TLSv11/TLSRehandshakeTest.java 440 linux-arm
+javax/net/ssl/TLSv11/TLSRehandshakeWithCipherChangeTest.java 440 linux-arm
+javax/net/ssl/TLSv11/TLSRehandshakeWithDataExTest.java 440 linux-arm
+javax/security/auth/Subject/doAs/Test.sh 440 linux-arm
+javax/security/auth/login/modules/JaasModularClientTest.java 440 linux-arm
+javax/security/auth/login/modules/JaasModularDefaultHandlerTest.java 440 linux-arm
+jdk/security/jarsigner/Function.java 440 linux-arm
+jdk/security/jarsigner/Spec.java 440 linux-arm
+sun/security/ec/TestEC.java 440 linux-arm
+sun/security/pkcs11/KeyAgreement/SupportedDHKeys.java 440 linux-arm
+sun/security/pkcs11/Secmod/TestNssDbSqlite.java 440 linux-arm
+sun/security/pkcs11/sslecc/ClientJSSEServerJSSE.java 440 linux-arm
+sun/security/pkcs12/P12SecretKey.java 440 linux-arm
+sun/security/pkcs12/StorePasswordTest.java 440 linux-arm
+sun/security/provider/DSA/TestKeyPairGenerator.java 440 linux-arm
+sun/security/provider/DSA/TestLegacyDSAKeyPairGenerator.java 440 linux-arm
+sun/security/provider/DSA/SupportedDSAParamGen.java 440 linux-arm
+sun/security/provider/NSASuiteB/TestDSAGenParameterSpec.java 440 linux-arm
+sun/security/provider/X509Factory/BigCRL.java 440 linux-arm
+sun/security/provider/DSA/TestAlgParameterGenerator.java 440 linux-arm
+sun/security/rsa/SignatureTest.java 440 linux-arm
+sun/security/rsa/SpecTest.java 440 linux-arm
+sun/security/rsa/TestKeyPairGeneratorLength.java 440 linux-arm
+sun/security/rsa/TestKeyPairGenerator.java 440 linux-arm
+sun/security/ssl/EngineArgs/DebugReportsOneExtraByte.sh 440 linux-arm
+sun/security/ssl/GenSSLConfigs/main.java 440 linux-arm
+sun/security/ssl/rsa/SignatureOffsets.java 440 linux-arm
+sun/security/ssl/rsa/SignedObjectChain.java 440 linux-arm
+sun/security/ssl/DHKeyExchange/UseStrongDHSizes.java 440 linux-arm
+sun/security/ssl/SSLEngineImpl/SSLEngineBadBufferArrayAccess.java 440 linux-arm
+sun/security/ssl/SSLSocketImpl/NotifyHandshakeTest.sh 440 linux-arm
+sun/security/ssl/SSLEngineImpl/SSLEngineDeadlock.java 440 linux-arm
+sun/security/ssl/SSLSocketImpl/NonAutoClose.java 440 linux-arm
+sun/security/ssl/StatusStapling/RunStatReqSelect.java 440 linux-arm
+sun/security/tools/jarsigner/warnings/MultipleWarningsTest.java 440 linux-arm
+sun/security/tools/jarsigner/certpolicy.sh 440 linux-arm
+sun/security/tools/jarsigner/EntriesOrder.java 440 linux-arm
+sun/security/tools/jarsigner/onlymanifest.sh 440 linux-arm
+sun/security/tools/jarsigner/Warning.java 440 linux-arm
+sun/security/tools/keytool/importreadall.sh 440 linux-arm
+sun/security/tools/keytool/DupImport.java 440 linux-arm
+sun/security/tools/keytool/PKCS12Passwd.java 440 linux-arm
+sun/security/tools/keytool/NewSize7.java 440 linux-arm
+sun/security/tools/keytool/selfissued.sh 440 linux-arm
+sun/security/tools/keytool/trystore.sh 440 linux-arm
+sun/security/tools/keytool/StorePasswords.java 440 linux-arm
+sun/security/tools/keytool/UnknownAndUnparseable.java 440 linux-arm
+sun/security/tools/jarsigner/TimestampCheck.java 440 linux-arm
+sun/security/validator/certreplace.sh 440 linux-arm
+sun/security/validator/samedn.sh 440 linux-arm
+sun/security/x509/X509CRLImpl/OrderAndDup.java 440 linux-arm
+sun/security/x509/X509CertImpl/V3Certificate.java 440 linux-arm
+sun/security/tools/keytool/WeakAlg.java 440 linux-arm
+javax/net/ssl/DTLSv10/DTLSv10HandshakeTest.java 440 linux-arm
+javax/net/ssl/Stapling/SSLEngineWithStapling.java 440 linux-arm
+javax/net/ssl/TLS/TLSRehandshakeWithCipherChangeTest.java 440 linux-arm
+javax/net/ssl/TLSv1/TLSMFLNTest.java 440 linux-arm
+javax/net/ssl/TLSv1/TLSRehandshakeWithCipherChangeTest.java 440 linux-arm
+javax/net/ssl/TLSv11/TLSEnginesClosureTest.java 440 linux-arm
+javax/net/ssl/TLSv12/SignatureAlgorithms.java 440 linux-arm
+sun/security/pkcs11/Provider/ConfigQuotedString.sh 440 linux-arm
+sun/security/pkcs11/Provider/Login.sh 440 linux-arm
+sun/security/pkcs12/PKCS12SameKeyId.java 440 linux-arm
+sun/security/provider/KeyStore/DKSTest.sh 440 linux-arm
+sun/security/provider/PolicyFile/getinstance/getinstance.sh 440 linux-arm
+sun/security/provider/MessageDigest/Offsets.java 440 linux-arm
+sun/security/rsa/PrivateKeyEqualityTest.java 440 linux-arm
+sun/security/rsa/SignatureOffsets.java 440 linux-arm
+sun/security/rsa/SignedObjectChain.java 440 linux-arm
+sun/security/rsa/KeySizeTest.java 440 linux-arm
+sun/security/rsa/TestSignatures.java 440 linux-arm
+sun/security/tools/jarsigner/multiRelease/MVJarSigningTest.java 440 linux-arm
+sun/security/tools/jarsigner/warnings/BadExtendedKeyUsageTest.java 440 linux-arm
+sun/security/tools/jarsigner/warnings/AliasNotInStoreTest.java 440 linux-arm
+sun/security/tools/jarsigner/warnings/ChainNotValidatedTest.java 440 linux-arm
+sun/security/tools/jarsigner/warnings/HasUnsignedEntryTest.java 440 linux-arm
+sun/security/ssl/StatusStapling/TestRun.java 440 linux-arm
+sun/security/tools/jarsigner/warnings/NotSignedByAliasTest.java 440 linux-arm
+sun/security/tools/jarsigner/AlgOptions.sh 440 linux-arm
+sun/security/tools/jarsigner/warnings/NotYetValidCertTest.java 440 linux-arm
+sun/security/tools/jarsigner/AltProvider.java 440 linux-arm
+sun/security/tools/jarsigner/collator.sh 440 linux-arm
+sun/security/tools/jarsigner/crl.sh 440 linux-arm
+sun/security/tools/jarsigner/diffend.sh 440 linux-arm
+sun/security/tools/jarsigner/ec.sh 440 linux-arm
+sun/security/tools/jarsigner/emptymanifest.sh 440 linux-arm
+sun/security/tools/jarsigner/jvindex.sh 440 linux-arm
+sun/security/tools/jarsigner/PercentSign.sh 440 linux-arm
+sun/security/tools/jarsigner/samename.sh 440 linux-arm
+sun/security/tools/jarsigner/DefaultSigalg.java 440 linux-arm
+sun/security/tools/jarsigner/TsacertOptionTest.java 440 linux-arm
+sun/security/tools/keytool/default_options.sh 440 linux-arm
+sun/security/tools/keytool/DupCommands.java 440 linux-arm
+sun/security/tools/keytool/emptysubject.sh 440 linux-arm
+sun/security/tools/keytool/JKStoPKCS12.java 440 linux-arm
+sun/security/tools/keytool/keyalg.sh 440 linux-arm
+sun/security/tools/keytool/CloseFile.java 440 linux-arm
+sun/security/tools/keytool/DefaultSignatureAlgorithm.java 440 linux-arm
+sun/security/tools/keytool/standard.sh 440 linux-arm
+sun/security/tools/keytool/RealType.java 440 linux-arm
+sun/security/tools/keytool/PrintSSL.java 440 linux-arm
+sun/security/tools/keytool/StorePasswordsByShell.sh 440 linux-arm
+sun/security/tools/keytool/StartDateTest.java 440 linux-arm
+sun/security/pkcs11/Provider/ConfigQuotedString.sh 440 linux-arm
+sun/security/pkcs11/Provider/Login.sh 440 linux-arm
+sun/security/provider/KeyStore/DKSTest.sh 440 linux-arm
+sun/security/provider/PolicyFile/getinstance/getinstance.sh 440 linux-arm
+sun/security/tools/jarsigner/concise_jarsigner.sh 440 linux-arm
+sun/security/tools/jarsigner/diffend.sh 440 linux-arm
+sun/security/tools/jarsigner/ec.sh 440 linux-arm
+sun/security/tools/jarsigner/emptymanifest.sh 440 linux-arm
+sun/security/tools/jarsigner/nameclash.sh 440 linux-arm
+sun/security/tools/jarsigner/PercentSign.sh 440 linux-arm
+sun/security/tools/jarsigner/samename.sh 440 linux-arm
+sun/security/tools/jarsigner/TsacertOptionTest.java 440 linux-arm
+sun/security/tools/keytool/default_options.sh 440 linux-arm
+sun/security/tools/keytool/emptysubject.sh 440 linux-arm
+sun/security/tools/keytool/JKStoPKCS12.java 440 linux-arm
+sun/security/tools/keytool/keyalg.sh 440 linux-arm
+sun/security/tools/keytool/NoExtNPE.sh 440 linux-arm
+sun/security/tools/keytool/CloseFile.java 440 linux-arm
+sun/security/tools/keytool/PrintSSL.java 440 linux-arm
+sun/security/tools/keytool/StorePasswordsByShell.sh 440 linux-arm
+lib/security/cacerts/VerifyCACerts.java 440 linux-arm
+sun/security/rsa/SignedObjectChain.java 440 linux-arm
+sun/security/tools/jarsigner/Options.java 440 linux-arm
+sun/security/tools/jarsigner/warnings/BadNetscapeCertTypeTest.java 440 linux-arm
+sun/security/tools/jarsigner/warnings/HasExpiredCertTest.java 440 linux-arm
+sun/security/tools/jarsigner/warnings/NoTimestampTest.java 440 linux-arm
+sun/security/tools/jarsigner/default_options.sh 440 linux-arm
+sun/security/tools/jarsigner/oldsig.sh 440 linux-arm
+sun/security/tools/jarsigner/passtype.sh 440 linux-arm
+sun/security/tools/jarsigner/weaksize.sh 440 linux-arm
+sun/security/tools/keytool/ImportPrompt.java 440 linux-arm
+sun/security/tools/keytool/SecretKeyKS.sh 440 linux-arm
+sun/security/tools/keytool/ReadJar.java 440 linux-arm
+sun/security/provider/certpath/ResponderId/ResponderIdTests.java 440 linux-arm
+sun/security/provider/SecureRandom/AbstractDrbg/SpecTest.java 440 linux-arm
+sun/security/provider/SecureRandom/SHA1PRNGReseed.java 440 linux-arm
+sun/security/provider/SecureRandom/StrongSecureRandom.java 440 linux-arm
+sun/security/tools/jarsigner/warnings/HasExpiringCertTest.java 440 linux-arm
+sun/security/tools/jarsigner/LineBrokenMultiByteCharacter.java 440 linux-arm
+sun/security/tools/jarsigner/newsize7.sh 440 linux-arm
+sun/security/tools/keytool/CloneKeyAskPassword.sh 440 linux-arm
+sun/security/tools/keytool/file-in-help.sh 440 linux-arm
+sun/security/tools/keytool/newhelp.sh 440 linux-arm
 
 ############################################################################
 
@@ -76,9 +614,60 @@ java/math/BigInteger/PrimeTest.java 440 linux_arm
 
 # jdk_text
 
+java/text/Format/NumberFormat/NumberRoundTrip.java 440 linux-arm
+sun/text/IntHashtable/Bug4170614Test.sh 440 linux-arm
+
 ############################################################################
 
 # jdk_time
+
+java/time/tck/java/time/chrono/serial/TCKChronologySerialization.java 440 linux-arm
+java/time/tck/java/time/chrono/serial/TCKChronoZonedDateTimeSerialization.java 440 linux-arm
+java/time/tck/java/time/chrono/serial/TCKEraSerialization.java 440 linux-arm
+java/time/tck/java/time/chrono/serial/TCKChronoLocalDateSerialization.java 440 linux-arm
+java/time/tck/java/time/chrono/serial/TCKCopticSerialization.java 440 linux-arm
+java/time/tck/java/time/chrono/serial/TCKChronoLocalDateTimeSerialization.java 440 linux-arm
+java/time/tck/java/time/chrono/CopticChronology.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKChronoPeriod.java 440 linux-arm
+java/time/tck/java/time/chrono/CopticEra.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKChronology.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKChronoZonedDateTime.java 440 linux-arm
+java/time/tck/java/time/chrono/CopticDate.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKHijrahChronology.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKHijrahEra.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKJapaneseEra.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKIsoChronology.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKJapaneseChronology.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKIsoEra.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKMinguoChronology.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKThaiBuddhistChronology.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKMinguoEra.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKTestServiceLoader.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKThaiBuddhistEra.java 440 linux-arm
+java/time/tck/java/time/format/TCKChronoPrinterParser.java 440 linux-arm
+java/time/tck/java/time/format/TCKDecimalStyle.java 440 linux-arm
+java/time/tck/java/time/format/TCKDateTimeFormatter.java 440 linux-arm
+java/time/tck/java/time/format/TCKDateTimeFormatterBuilder.java 440 linux-arm
+java/time/tck/java/time/format/TCKDTFParsedInstant.java 440 linux-arm
+java/time/tck/java/time/format/TCKDateTimeTextPrinting.java 440 linux-arm
+java/time/tck/java/time/format/TCKFormatStyle.java 440 linux-arm
+java/time/tck/java/time/format/TCKInstantPrinterParser.java 440 linux-arm
+java/time/tck/java/time/format/TCKLocalizedFieldPrinter.java 440 linux-arm
+java/time/tck/java/time/format/TCKLocalizedPrinterParser.java 440 linux-arm
+java/time/tck/java/time/format/TCKLocalizedOffsetIdPrinterParser.java 440 linux-arm
+java/time/tck/java/time/format/TCKPadPrinterParser.java 440 linux-arm
+java/time/tck/java/time/format/TCKTextStyle.java 440 linux-arm
+java/time/tck/java/time/format/TCKOffsetPrinterParser.java 440 linux-arm
+java/time/tck/java/time/serial/TCKInstantSerialization.java 440 linux-arm
+java/time/tck/java/time/temporal/TCKWeekFields.java 440 linux-arm
+java/time/tck/java/time/TCKLocalDate.java 440 linux-arm
+java/time/tck/java/time/TCKLocalDateTime.java 440 linux-arm
+java/time/tck/java/time/TCKYear.java 440 linux-arm
+java/time/tck/java/time/TCKZoneOffset.java 440 linux-arm
+java/time/test/java/time/chrono/TestIsoChronoImpl.java 440 linux-arm
+java/time/test/java/time/chrono/TestJapaneseChronoImpl.java 440 linux-arm
+java/time/test/java/time/chrono/TestThaiBuddhistChronoImpl.java 440 linux-arm
+java/time/test/java/time/format/TestZoneTextPrinterParser.java 440 linux-arm
 
 ############################################################################
 
@@ -91,6 +680,133 @@ java/math/BigInteger/PrimeTest.java 440 linux_arm
 ############################################################################
 
 # jdk_util
+
+java/util/Arrays/largeMemory/ParallelPrefix.java 440 linux-arm
+java/util/Arrays/Correct.java 440 linux-arm
+java/util/Arrays/ArraysEqCmpTest.java 440 linux-arm
+java/util/Arrays/Sorting.java 440 linux-arm
+java/util/Base64/TestBase64.java 440 linux-arm
+java/util/Arrays/TimSortStackSize2.java 440 linux-arm
+java/util/BitSet/stream/BitSetStreamTest.java 440 linux-arm
+java/util/Calendar/Bug8167273.java 440 linux-arm
+java/util/Calendar/CalendarDataTest.java 440 linux-arm
+java/util/Calendar/CalendarTest.java 440 linux-arm
+java/util/Calendar/RollDayOfWeekTest.java 440 linux-arm
+java/util/concurrent/atomic/DoubleAdderDemo.java 440 linux-arm
+java/util/concurrent/ConcurrentQueues/ConcurrentQueueLoops.java 440 linux-arm
+java/util/concurrent/ConcurrentHashMap/MapCheck.java 440 linux-arm
+java/util/concurrent/locks/Lock/TimedAcquireLeak.java 440 linux-arm
+java/util/concurrent/forkjoin/Integrate.java 440 linux-arm
+java/util/concurrent/Semaphore/RacingReleases.java 440 linux-arm
+java/util/concurrent/ScheduledThreadPoolExecutor/BasicCancelTest.java 440 linux-arm
+java/util/concurrent/tck/JSR166TestCase.java 440 linux-arm
+java/util/Currency/PropertiesTest.sh 440 linux-arm
+java/util/Formatter/Basic.java 440 linux-arm
+java/util/EnumSet/EnumSetBash.java 440 linux-arm
+java/util/HashSet/Serialization.java 440 linux-arm
+java/util/Iterator/IteratorDefaults.java 440 linux-arm
+java/util/jar/JarInputStream/ExtraFileInMetaInf.java 440 linux-arm
+java/util/logging/LogManager/Configuration/updateConfiguration/UpdateConfigurationTest.java 440 linux-arm
+java/util/logging/LoggingDeadlock2.java 440 linux-arm
+java/util/logging/LoggingDeadlock3.java 440 linux-arm
+java/util/PluggableLocale/BreakIteratorProviderTest.sh 440 linux-arm
+java/util/PluggableLocale/LocaleNameProviderTest.sh 440 linux-arm
+java/util/PluggableLocale/GenericTest.sh 440 linux-arm
+java/util/PluggableLocale/NumberFormatProviderTest.sh 440 linux-arm
+java/util/PluggableLocale/PermissionTest.sh 440 linux-arm
+java/util/PluggableLocale/TimeZoneNameProviderTest.sh 440 linux-arm
+java/util/Map/Collisions.java 440 linux-arm
+java/util/prefs/PrefsSpi.sh 440 linux-arm
+java/util/Map/InPlaceOpsCollisions.java 440 linux-arm
+java/util/Map/MapBinToFromTreeTest.java 440 linux-arm
+java/util/ResourceBundle/modules/appbasic/appbasic.sh 440 linux-arm
+java/util/ResourceBundle/modules/basic/basic.sh 440 linux-arm
+java/util/ResourceBundle/modules/modlocal/modlocal.sh 440 linux-arm
+java/util/ResourceBundle/modules/unnamed/unnamed.sh 440 linux-arm
+java/util/ResourceBundle/modules/xmlformat/xmlformat.sh 440 linux-arm
+java/util/Random/RandomTest.java 440 linux-arm
+java/util/regex/RegExTest.java 440 linux-arm
+java/util/ResourceBundle/UTF8Properties/CodePointTest.java 440 linux-arm
+java/util/Spliterator/SpliteratorCollisions.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/lang/invoke/DeserializeMethodTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/lang/invoke/MHProxiesTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/lang/invoke/SerializedLambdaTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/CollectionAndMapModifyStreamTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/ConcatOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/ConcatTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/CountLargeTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/CountTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/DistinctOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/FilterOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/FindAnyOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/FindFirstOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/FlatMapOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/ForEachOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/GroupByOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/IntPrimitiveOpsTests.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/IntReduceTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/IntSliceOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/IntUniqOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/IterateTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/MatchOpTest.java  440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/PrimitiveAverageOpTest.java  440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/MinMaxTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/RangeTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/ReduceByOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/SliceOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/SortedOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/SpliteratorTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/StreamBuilderTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/StreamCloseTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/StreamSpliteratorTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/ToArrayOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/WhileOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/FillableStringTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/SplittableRandomTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/MapTest.java 440 linux-arm
+java/util/stream/boottest/java.base/java/util/stream/NodeBuilderTest.java 440 linux-arm
+java/util/stream/boottest/java.base/java/util/stream/SliceSpliteratorTest.java 440 linux-arm
+java/util/TimeZone/Bug6772689.java 440 linux-arm
+java/util/TimeZone/DaylightTimeTest.java 440 linux-arm
+java/util/stream/boottest/java.base/java/util/stream/SpinedBufferTest.java 440 linux-arm
+java/util/zip/EntryCount64k.java 440 linux-arm
+java/util/zip/DeInflate.java 440 linux-arm
+java/util/zip/DeflateIn_InflateOut.java 440 linux-arm
+java/util/Arrays/ParallelSorting.java 440 linux-arm
+java/util/concurrent/atomic/LongAdderDemo.java 440 linux-arm
+java/util/concurrent/locks/LockSupport/ParkLoops.java 440 linux-arm
+java/util/PluggableLocale/CalendarNameProviderTest.sh 440 linux-arm
+java/util/PluggableLocale/DateFormatProviderTest.sh 440 linux-arm
+java/util/ResourceBundle/modules/appbasic2/appbasic2.sh 440 linux-arm
+java/util/ResourceBundle/modules/visibility/visibility.sh 440 linux-arm
+java/util/ServiceLoader/basic/basic.sh 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/CollectAndSummaryStatisticsTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/CollectorsTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/DoublePrimitiveOpsTests.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/InfiniteStreamWithLimitOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/LongPrimitiveOpsTests.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/MapOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/PrimitiveSumTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/ReduceTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/SequentialOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/StreamLinkTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/StreamParSeqTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/TeeOpTest.java 440 linux-arm
+java/util/stream/test/org/openjdk/tests/java/util/stream/WhileOpStatefulTest.java 440 linux-arm
+java/util/TimeZone/TimeZoneDatePermissionCheck.sh 440 linux-arm
+java/util/PluggableLocale/CalendarNameProviderTest.sh 440 linux-arm
+java/util/PluggableLocale/CalendarDataProviderTest.sh 440 linux-arm
+java/util/PluggableLocale/ClasspathTest.sh 440 linux-arm
+java/util/PluggableLocale/CollatorProviderTest.sh 440 linux-arm
+java/util/PluggableLocale/CurrencyNameProviderTest.sh 440 linux-arm
+java/util/PluggableLocale/DateFormatProviderTest.sh 440 linux-arm
+java/util/PluggableLocale/DateFormatSymbolsProviderTest.sh 440 linux-arm
+java/util/PluggableLocale/DecimalFormatSymbolsProviderTest.sh 440 linux-arm
+java/util/ResourceBundle/modules/appbasic2/appbasic2.sh 440 linux-arm
+java/util/ResourceBundle/modules/layer/run.sh 440 linux-arm
+java/util/ResourceBundle/modules/simple/simple.sh 440 linux-arm
+java/util/Spliterator/SpliteratorTraversingAndSplittingTest.java 440 linux-arm
+java/util/concurrent/ConcurrentHashMap/ConcurrentAssociateTest.java 440 linux-arm
 
 ############################################################################
 
