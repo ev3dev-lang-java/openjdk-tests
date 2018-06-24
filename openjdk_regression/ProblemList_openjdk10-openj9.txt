@@ -864,6 +864,14 @@ java/util/concurrent/ConcurrentHashMap/ConcurrentAssociateTest.java 440 linux-ar
 
 ############################################################################
 
+# jdk_jmx
+
+avax/management/monitor/StartStopTest.java 440 linux-arm
+javax/management/remote/mandatory/connection/DefaultAgentFilterTest.java
+javax/management/remote/mandatory/connection/RMIConnectionIdTest.java
+
+############################################################################
+
 # svc_tools
 
 ############################################################################
