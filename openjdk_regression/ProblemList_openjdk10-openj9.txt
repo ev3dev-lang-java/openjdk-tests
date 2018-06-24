@@ -115,6 +115,9 @@ sun/management/jmxremote/startstop/JMXStartStopTest.java 440 linux-arm
 ############################################################################
 
 # jdk_jmx
+javax/management/monitor/StartStopTest.java 440 linux-arm
+javax/management/remote/mandatory/notif/NotificationEmissionTest.java 440 linux-arm
+javax/management/remote/mandatory/notif/ListenerScaleTest.java 440 linux-arm
 
 ############################################################################
 
