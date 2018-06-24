@@ -120,6 +120,7 @@ javax/script/ProviderTest.sh 440 linux-arm
 javax/xml/ws/ebcdic/WsImportTest.java 440 linux-arm
 com/sun/corba/5036554/TestCorbaBug.sh 440 linux-arm
 javax/xml/bind/xjc/8145039/JaxbMarshallTest.java 440 linux-arm
+javax/xml/bind/jxc/8073519/SchemagenErrorReporting.java 440 linux-arm
 
 ############################################################################
 
