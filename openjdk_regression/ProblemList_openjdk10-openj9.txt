@@ -116,6 +116,8 @@ javax/xml/bind/xjc/8032884/XjcOptionalPropertyTest.java 440 linux-arm
 javax/xml/ws/8033113/WsImportTest.java 440 linux-arm
 javax/xml/ws/clientjar/TestWsImport.java 440 linux-arm
 javax/xml/ws/xsanymixed/Test.java 440 linux-arm
+javax/script/ProviderTest.sh 440 linux-arm
+javax/xml/ws/ebcdic/WsImportTest.java 440 linux-arm
 
 ############################################################################
 
@@ -837,9 +839,5 @@ java/util/concurrent/ConcurrentHashMap/ConcurrentAssociateTest.java 440 linux-ar
 ############################################################################
 
 # svc_tools
-
-############################################################################
-
-# jdk_other
 
 ############################################################################
