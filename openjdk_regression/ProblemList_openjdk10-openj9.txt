@@ -376,6 +376,22 @@ java/nio/channels/FileChannel/InterruptDeadlock.java 440 linux-arm
 
 # jdk_rmi
 
+java/rmi/server/UnicastRemoteObject/exportObject/GcDuringExport.java 440 linux-arm
+java/rmi/reliability/benchmark/bench/rmi/Main.java 440 linux-arm
+java/rmi/reliability/benchmark/bench/serial/Main.java 440 linux-arm
+java/rmi/activation/Activatable/inactiveGroup/InactiveGroup.java 440 linux-arm
+java/rmi/activation/Activatable/forceLogSnapshot/ForceLogSnapshot.java 440 linux-arm
+java/rmi/activation/ActivationSystem/modifyDescriptor/ModifyDescriptor.java 440 linux-arm
+java/rmi/server/RMISocketFactory/useSocketFactory/activatable/UseCustomSocketFactory.java 440 linux-arm
+java/rmi/server/Unreferenced/leaseCheckInterval/LeaseCheckInterval.java 440 linux-arm
+sun/rmi/rmic/classFileVersion/run.sh 440 linux-arm
+sun/rmi/rmic/covariantReturns/run.sh 440 linux-arm
+sun/rmi/rmic/defaultStubVersion/run.sh 440 linux-arm
+sun/rmi/rmic/minimizeWrapperInstances/run.sh 440 linux-arm
+sun/rmi/rmic/manifestClassPath/run.sh 440 linux-arm
+sun/rmi/rmic/RMIGenerator/RmicDefault.java 440 linux-arm
+sun/rmi/runtime/Log/6409194/NoConsoleOutput.java 440 linux-arm
+
 ############################################################################
 
 # jdk_security1
