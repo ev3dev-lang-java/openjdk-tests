@@ -391,6 +391,8 @@ sun/rmi/rmic/minimizeWrapperInstances/run.sh 440 linux-arm
 sun/rmi/rmic/manifestClassPath/run.sh 440 linux-arm
 sun/rmi/rmic/RMIGenerator/RmicDefault.java 440 linux-arm
 sun/rmi/runtime/Log/6409194/NoConsoleOutput.java 440 linux-arm
+java/rmi/server/RMISocketFactory/useSocketFactory/unicast/UseCustomSocketFactory.java 440 linux-arm
+sun/rmi/rmic/iiopCompilation/IIOPCompilation.java 440 linux-arm
 
 ############################################################################
 
