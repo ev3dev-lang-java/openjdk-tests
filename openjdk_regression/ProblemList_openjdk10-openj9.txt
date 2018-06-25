@@ -115,6 +115,7 @@ sun/management/jmxremote/startstop/JMXStartStopTest.java 440 linux-arm
 ############################################################################
 
 # jdk_jmx
+
 javax/management/monitor/StartStopTest.java 440 linux-arm
 javax/management/remote/mandatory/notif/NotificationEmissionTest.java 440 linux-arm
 javax/management/remote/mandatory/notif/ListenerScaleTest.java 440 linux-arm
@@ -726,27 +727,103 @@ java/time/test/java/time/chrono/TestIsoChronoImpl.java 440 linux-arm
 java/time/test/java/time/chrono/TestJapaneseChronoImpl.java 440 linux-arm
 java/time/test/java/time/chrono/TestThaiBuddhistChronoImpl.java 440 linux-arm
 java/time/test/java/time/format/TestZoneTextPrinterParser.java 440 linux-arm
-java/time/tck/java/time/chrono/TCKChronoLocalDate.java
-java/time/tck/java/time/chrono/TCKChronoLocalDateTime.java
-java/time/tck/java/time/format/TCKDateTimeFormatters.java
-java/time/tck/java/time/format/TCKZoneIdPrinterParser.java
-java/time/tck/java/time/format/TCKDateTimeParseResolver.java
-java/time/tck/java/time/format/TCKResolverStyle.java
-java/time/tck/java/time/serial/TCKClockSerialization.java
-java/time/tck/java/time/format/TCKLocalizedFieldParser.java
-java/time/tck/java/time/format/TCKSignStyle.java
-java/time/tck/java/time/serial/TCKLocalDateTimeSerialization.java
-java/time/tck/java/time/serial/TCKLocalDateSerialization.java
-java/time/tck/java/time/serial/TCKMonthDaySerialization.java
-java/time/tck/java/time/serial/TCKLocalTimeSerialization.java
-java/time/tck/java/time/serial/TCKYearMonthSerialization.java
-java/time/tck/java/time/serial/TCKPeriodSerialization.java
-java/time/tck/java/time/serial/TCKOffsetTimeSerialization.java
-java/time/tck/java/time/serial/TCKOffsetDateTimeSerialization.java
+java/time/tck/java/time/chrono/TCKChronoLocalDate.java 440 linux-arm
+java/time/tck/java/time/chrono/TCKChronoLocalDateTime.java 440 linux-arm
+java/time/tck/java/time/format/TCKDateTimeFormatters.java 440 linux-arm
+java/time/tck/java/time/format/TCKZoneIdPrinterParser.java 440 linux-arm
+java/time/tck/java/time/format/TCKDateTimeParseResolver.java 440 linux-arm
+java/time/tck/java/time/format/TCKResolverStyle.java 440 linux-arm
+java/time/tck/java/time/serial/TCKClockSerialization.java 440 linux-arm
+java/time/tck/java/time/format/TCKLocalizedFieldParser.java 440 linux-arm
+java/time/tck/java/time/format/TCKSignStyle.java 440 linux-arm
+java/time/tck/java/time/serial/TCKLocalDateTimeSerialization.java 440 linux-arm
+java/time/tck/java/time/serial/TCKLocalDateSerialization.java 440 linux-arm
+java/time/tck/java/time/serial/TCKMonthDaySerialization.java 440 linux-arm
+java/time/tck/java/time/serial/TCKLocalTimeSerialization.java 440 linux-arm
+java/time/tck/java/time/serial/TCKYearMonthSerialization.java 440 linux-arm
+java/time/tck/java/time/serial/TCKPeriodSerialization.java 440 linux-arm
+java/time/tck/java/time/serial/TCKOffsetTimeSerialization.java 440 linux-arm
+java/time/tck/java/time/serial/TCKOffsetDateTimeSerialization.java 440 linux-arm
 
 ############################################################################
 
 # jdk_tools
+
+com/sun/tools/attach/modules/Driver.java 440 linux-arm
+com/sun/tools/attach/TempDirTest.java 440 linux-arm
+sun/jvmstat/monitor/MonitoredVm/TestPollingInterval.java 440 linux-arm
+sun/tools/jcmd/TestJcmdDefaults.java 440 linux-arm
+sun/tools/jcmd/TestJcmdSanity.java 440 linux-arm
+sun/tools/jinfo/JInfoTest.java 440 linux-arm
+sun/tools/jps/TestJps.java 440 linux-arm
+sun/tools/jrunscript/jrunscript-argsTest.sh 440 linux-arm
+sun/tools/jrunscript/jrunscript-cpTest.sh 440 linux-arm
+sun/tools/jrunscript/jrunscript-DTest.sh 440 linux-arm
+jdk/internal/jrtfs/Basic.java 440 linux-arm
+sun/tools/jrunscript/jrunscript-eTest.sh 440 linux-arm
+sun/tools/jrunscript/jrunscriptTest.sh 440 linux-arm
+sun/tools/jstat/jstatGcCauseOutput1.sh 440 linux-arm
+sun/tools/jstat/jstatGcNewOutput1.sh 440 linux-arm
+sun/tools/jstat/jstatHelp.sh 440 linux-arm
+sun/tools/jstat/jstatLineCounts1.sh 440 linux-arm
+sun/tools/jstat/jstatLineCounts2.sh 440 linux-arm
+sun/tools/jstat/jstatSnap1.sh 440 linux-arm
+sun/tools/jstat/jstatSnap2.sh 440 linux-arm
+sun/tools/jstat/jstatPrintCompilationOutput1.sh 440 linux-arm
+sun/tools/jstatd/TestJstatdExternalRegistry.java 440 linux-arm
+sun/tools/jstatd/TestJstatdDefaults.java 440 linux-arm
+sun/tools/jstatd/TestJstatdPort.java 440 linux-arm
+sun/tools/jstatd/TestJstatdPortAndServer.java 440 linux-arm
+sun/tools/jstatd/TestJstatdServer.java 440 linux-arm
+tools/jar/compat/CLICompatibility.java 440 linux-arm
+tools/jar/modularJar/Basic.java 440 linux-arm
+tools/jar/multiRelease/Basic.java 440 linux-arm
+tools/jar/multiRelease/Basic1.java 440 linux-arm
+tools/jar/LeadingGarbage.java 440 linux-arm
+tools/jar/multiRelease/RuntimeTest.java 440 linux-arm
+tools/jjs/jjs-cpTest.sh 440 linux-arm
+tools/jjs/jjs-modulepathTest.sh 440 linux-arm
+tools/jimage/VerifyJimage.java 440 linux-arm
+tools/jimage/JImageTest.java 440 linux-arm
+tools/jlink/basic/AllModulePath.java 440 linux-arm
+tools/jlink/basic/BasicTest.java 440 linux-arm
+tools/jlink/bindservices/BindServices.java 440 linux-arm
+tools/jlink/multireleasejar/JLinkMRJavaBaseVersionTest.java 440 linux-arm
+tools/jlink/multireleasejar/JLinkMultiReleaseJarTest.java 440 linux-arm
+tools/jlink/plugins/SystemModuleDescriptors/UserModuleTest.java 440 linux-arm
+tools/jlink/plugins/ExcludePluginTest.java 440 linux-arm
+tools/jlink/plugins/GenerateJLIClassesPluginTest.java 440 linux-arm
+tools/jlink/plugins/IncludeLocalesPluginTest.java 440 linux-arm
+tools/jlink/plugins/LegalFilePluginTest.java 440 linux-arm
+tools/jar/multiRelease/ApiValidatorTest.java 440 linux-arm
+tools/jlink/DefaultProviderTest.java 440 linux-arm
+tools/jlink/JLink2Test.java 440 linux-arm
+tools/jlink/IntegrationTest.java 440 linux-arm
+tools/jlink/JLinkOptionsTest.java 440 linux-arm
+tools/jlink/JLinkPluginsTest.java 440 linux-arm
+tools/jlink/JLinkPostProcessingTest.java 440 linux-arm
+tools/jlink/JLinkSigningTest.java 440 linux-arm
+tools/jlink/JLinkTest.java 440 linux-arm
+tools/jlink/ModuleNamesOrderTest.java 440 linux-arm
+tools/jmod/hashes/HashesTest.java 440 linux-arm
+tools/launcher/modules/limitmods/LimitModsTest.java 440 linux-arm
+tools/launcher/modules/showmoduleresolution/ShowModuleResolutionTest.java 440 linux-arm
+tools/launcher/modules/patch/systemmodules/PatchSystemModules.java 440 linux-arm
+tools/launcher/ArgFileSyntax.java 440 linux-arm
+tools/launcher/ExecutionEnvironment.java 440 linux-arm
+tools/launcher/LauncherMessageTest.java 440 linux-arm
+tools/launcher/TestMainWithoutEnclosing.java 440 linux-arm
+tools/launcher/ToolsOpts.java 440 linux-arm
+tools/pack200/typeannos/TestTypeAnnotations.java 440 linux-arm
+tools/pack200/AttributeTests.java 440 linux-arm
+tools/pack200/BandIntegrity.java 440 linux-arm
+tools/launcher/VersionCheck.java 440 linux-arm
+tools/pack200/MultiRelease.java 440 linux-arm
+tools/pack200/ModuleAttributes.java 440 linux-arm
+tools/pack200/TestNormal.java 440 linux-arm
+tools/pack200/Pack200Props.java 440 linux-arm
+tools/schemagen/MultiReleaseJarTest.java 440 linux-arm
+tools/wsgen/MultiReleaseJarTest.java 440 linux-arm
 
 ############################################################################
 
