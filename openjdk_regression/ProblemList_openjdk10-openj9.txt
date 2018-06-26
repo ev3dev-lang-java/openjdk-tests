@@ -867,6 +867,12 @@ tools/launcher/MainClassAttributeTest.java 440 linux-arm
 tools/launcher/MultipleJRE.sh 440 linux-arm
 tools/launcher/Arrrghs.java 440 linux-arm
 tools/pack200/PackChecksum.java 440 linux-arm
+tools/launcher/modules/listmods/ListModsTest.java 440 linux-arm
+tools/launcher/Jexec.java 440 linux-arm
+tools/pack200/Pack200Test.java 440 linux-arm
+sun/tools/jstat/jstatLineCounts4.sh 440 linux-arm
+tools/jar/JarEntryTime.java 440 linux-arm
+tools/launcher/modules/listmods/ListModsTest.java 440 linux-arm
 
 ############################################################################
 
