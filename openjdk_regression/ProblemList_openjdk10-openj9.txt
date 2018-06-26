@@ -824,6 +824,42 @@ tools/pack200/TestNormal.java 440 linux-arm
 tools/pack200/Pack200Props.java 440 linux-arm
 tools/schemagen/MultiReleaseJarTest.java 440 linux-arm
 tools/wsgen/MultiReleaseJarTest.java 440 linux-arm
+com/sun/tools/attach/StartManagementAgent.java 440 linux-arm
+com/sun/tools/attach/PermissionTest.java 440 linux-arm
+sun/tools/jinfo/BasicJInfoTest.java 440 linux-arm
+com/sun/tools/attach/BasicTests.java 440 linux-arm
+sun/tools/jstat/jstatCompilerOutput1.sh 440 linux-arm
+sun/tools/jstat/jstatGcCapacityOutput1.sh 440 linux-arm
+sun/tools/jstat/jstatGcMetaCapacityOutput1.sh 440 linux-arm
+sun/tools/jstat/jstatGcOldCapacityOutput1.sh 440 linux-arm
+sun/tools/jstat/jstatGcNewCapacityOutput1.sh 440 linux-arm
+sun/tools/jstat/jstatGcOutput1.sh 440 linux-arm
+sun/tools/jstat/jstatLineCounts3.sh 440 linux-arm
+sun/tools/jrunscript/jrunscript-fTest.sh 440 linux-arm
+sun/tools/jstat/jstatTimeStamp1.sh 440 linux-arm
+sun/tools/jstat/jstatOptions1.sh 440 linux-arm
+sun/tools/jps/TestJpsSanity.java 440 linux-arm
+sun/tools/jstat/JStatInterval.java 440 linux-arm
+tools/jjs/jjs-argsTest.sh 440 linux-arm
+tools/jjs/jjs-es6Test.sh 440 linux-arm
+tools/jjs/jjs-fileTest.sh 440 linux-arm
+tools/jjs/jjs-scriptingTest.sh 440 linux-arm
+tools/jjs/jjs-strictTest.sh 440 linux-arm
+tools/jlink/plugins/SystemModuleDescriptors/CompiledVersionTest.java 440 linux-arm
+tools/jlink/plugins/CompressorPluginTest.java 440 linux-arm
+tools/launcher/ArgsFileTest.java 440 linux-arm
+tools/launcher/ArgsEnvVar.java 440 linux-arm
+tools/jlink/JLinkNegativeTest.java 440 linux-arm
+tools/launcher/InfoStreams.java 440 linux-arm
+tools/launcher/I18NJarTest.java 440 linux-arm
+tools/launcher/MiscTests.java 440 linux-arm
+tools/launcher/TestXcheckJNIWarnings.java 440 linux-arm
+tools/pack200/PackTestZip64.java 440 linux-arm
+tools/pack200/RepackTest.java 440 linux-arm
+tools/pack200/PackageVersionTest.java 440 linux-arm
+tools/pack200/UnpackerMemoryTest.java 440 linux-arm
+tools/pack200/InstructionTests.java 440 linux-arm
+tools/launcher/modules/illegalaccess/IllegalAccessTest.java 440 linux-arm
 
 ############################################################################
 
