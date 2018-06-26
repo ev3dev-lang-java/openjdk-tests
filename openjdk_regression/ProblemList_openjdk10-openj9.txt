@@ -860,6 +860,13 @@ tools/pack200/PackageVersionTest.java 440 linux-arm
 tools/pack200/UnpackerMemoryTest.java 440 linux-arm
 tools/pack200/InstructionTests.java 440 linux-arm
 tools/launcher/modules/illegalaccess/IllegalAccessTest.java 440 linux-arm
+sun/tools/jmap/BasicJMapTest.java 440 linux-arm
+tools/jlink/plugins/ExcludeJmodSectionPluginTest.java 440 linux-arm
+tools/launcher/ClassPathWildCard.sh 440 linux-arm
+tools/launcher/MainClassAttributeTest.java 440 linux-arm
+tools/launcher/MultipleJRE.sh 440 linux-arm
+tools/launcher/Arrrghs.java 440 linux-arm
+tools/pack200/PackChecksum.java 440 linux-arm
 
 ############################################################################
 
