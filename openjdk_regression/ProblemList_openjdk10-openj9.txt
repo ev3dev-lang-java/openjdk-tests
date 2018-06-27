@@ -851,6 +851,7 @@ tools/launcher/ArgsFileTest.java 440 linux-arm
 tools/launcher/ArgsEnvVar.java 440 linux-arm
 tools/jlink/JLinkNegativeTest.java 440 linux-arm
 tools/launcher/InfoStreams.java 440 linux-arm
+tools/launcher/UnicodeTest.java 440 linux-arm
 tools/launcher/I18NJarTest.java 440 linux-arm
 tools/launcher/MiscTests.java 440 linux-arm
 tools/launcher/TestXcheckJNIWarnings.java 440 linux-arm
