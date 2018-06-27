@@ -873,6 +873,7 @@ tools/pack200/Pack200Test.java 440 linux-arm
 sun/tools/jstat/jstatLineCounts4.sh 440 linux-arm
 tools/jar/JarEntryTime.java 440 linux-arm
 tools/launcher/modules/listmods/ListModsTest.java 440 linux-arm
+sun/tools/jstat/jstatGcOldOutput1.sh 440 linux-arm
 
 ############################################################################
 
