@@ -660,6 +660,7 @@ sun/security/tools/jarsigner/newsize7.sh 440 linux-arm
 sun/security/tools/keytool/CloneKeyAskPassword.sh 440 linux-arm
 sun/security/tools/keytool/file-in-help.sh 440 linux-arm
 sun/security/tools/keytool/newhelp.sh 440 linux-arm
+tools/launcher/TestSpecialArgs.java 440 linux-arm
 
 ############################################################################
 
