@@ -879,6 +879,7 @@ tools/launcher/modules/listmods/ListModsTest.java 440 linux-arm
 sun/tools/jstat/jstatGcOldOutput1.sh 440 linux-arm
 tools/pack200/TestExceptions.java 440 linux-arm
 sun/tools/jstack/BasicJStackTest.java 440 linux-arm
+tools/launcher/Settings.java 440 linux-arm
 
 ############################################################################
 
