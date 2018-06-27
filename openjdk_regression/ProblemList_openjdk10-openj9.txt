@@ -859,6 +859,7 @@ tools/pack200/PackTestZip64.java 440 linux-arm
 tools/pack200/RepackTest.java 440 linux-arm
 tools/pack200/PackageVersionTest.java 440 linux-arm
 tools/pack200/UnpackerMemoryTest.java 440 linux-arm
+tools/jjs/jjs-DTest.sh 440 linux-arm
 tools/pack200/InstructionTests.java 440 linux-arm
 tools/launcher/modules/illegalaccess/IllegalAccessTest.java 440 linux-arm
 sun/tools/jmap/BasicJMapTest.java 440 linux-arm
