@@ -273,6 +273,9 @@ com/sun/jdi/RedefinePop.sh 440 linux-arm
 com/sun/jdi/RedefineStep.sh 440 linux-arm
 com/sun/jdi/StringConvertTest.sh 440 linux-arm
 com/sun/jdi/RedefineTTYLineNumber.sh 440 linux-arm
+com/sun/jdi/RedefineAbstractClass.sh 440 linux-arm
+com/sun/jdi/RedefineClearBreakpoint.sh 440 linux-arm
+com/sun/jdi/RedefineException.sh 440 linux-arm
 
 ############################################################################
 
