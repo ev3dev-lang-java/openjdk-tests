@@ -247,9 +247,32 @@ java/io/DataInputStream/ReadUTF.java 440 linux-arm
 java/io/StringBufferInputStream/OverflowInRead.java 440 linux-arm
 java/io/File/DeleteOnExitNPE.java 440 linux-arm
 
+
 ############################################################################
 
 # jdk_jdi
+
+com/sun/jdi/cds/CDSBreakpointTest.java 440 linux-arm
+com/sun/jdi/cds/CDSDeleteAllBkptsTest.java 440 linux-arm
+com/sun/jdi/cds/CDSFieldWatchpoints.java 440 linux-arm
+com/sun/jdi/BreakpointTest.java 440 linux-arm
+com/sun/jdi/EvalArgs.sh 440 linux-arm
+com/sun/jdi/JdbExprTest.sh 440 linux-arm
+com/sun/jdi/JdbReadTwiceTest.sh 440 linux-arm
+com/sun/jdi/ListenAddress.java 440 linux-arm
+com/sun/jdi/GetLocalVariables3Test.sh 440 linux-arm
+com/sun/jdi/JdbVarargsTest.sh 440 linux-arm
+com/sun/jdi/ProcessAttachTest.java 440 linux-arm
+com/sun/jdi/MixedSuspendTest.sh 440 linux-arm
+com/sun/jdi/NotAField.sh 440 linux-arm
+com/sun/jdi/RedefineChangeClassOrder.sh 440 linux-arm
+com/sun/jdi/Redefine-g.sh 440 linux-arm
+com/sun/jdi/RedefineIntConstantToLong.sh 440 linux-arm
+com/sun/jdi/RedefineMulti.sh 440 linux-arm
+com/sun/jdi/RedefinePop.sh 440 linux-arm
+com/sun/jdi/RedefineStep.sh 440 linux-arm
+com/sun/jdi/StringConvertTest.sh 440 linux-arm
+com/sun/jdi/RedefineTTYLineNumber.sh 440 linux-arm
 
 ############################################################################
 
