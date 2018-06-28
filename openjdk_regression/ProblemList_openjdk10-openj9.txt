@@ -288,6 +288,8 @@ com/sun/jdi/RedefineAnnotation.sh 440 linux-arm
 com/sun/jdi/WatchFramePop.sh 440 linux-arm
 com/sun/jdi/CatchCaughtTest.sh 440 linux-arm
 com/sun/jdi/CatchPatternTest.sh 440 linux-arm
+com/sun/jdi/CatchAllTest.sh 440 linux-arm
+com/sun/jdi/JdbLockTest.sh 440 linux-arm
 
 ############################################################################
 
