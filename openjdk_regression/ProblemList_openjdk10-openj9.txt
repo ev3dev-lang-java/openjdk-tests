@@ -276,6 +276,18 @@ com/sun/jdi/RedefineTTYLineNumber.sh 440 linux-arm
 com/sun/jdi/RedefineAbstractClass.sh 440 linux-arm
 com/sun/jdi/RedefineClearBreakpoint.sh 440 linux-arm
 com/sun/jdi/RedefineException.sh 440 linux-arm
+com/sun/jdi/BreakpointWithFullGC.sh 440 linux-arm
+com/sun/jdi/CommandCommentDelimiter.sh 440 linux-arm
+com/sun/jdi/EvalInterfaceStatic.sh 440 linux-arm
+com/sun/jdi/EvalArraysAsList.sh 440 linux-arm
+com/sun/jdi/DeoptimizeWalk.sh 440 linux-arm
+com/sun/jdi/GetLocalVariables4Test.sh 440 linux-arm
+com/sun/jdi/JdbMissStep.sh 440 linux-arm
+com/sun/jdi/RedefineFinal.sh 440 linux-arm
+com/sun/jdi/RedefineAnnotation.sh 440 linux-arm
+com/sun/jdi/WatchFramePop.sh 440 linux-arm
+com/sun/jdi/CatchCaughtTest.sh 440 linux-arm
+com/sun/jdi/CatchPatternTest.sh 440 linux-arm
 
 ############################################################################
 
@@ -906,10 +918,6 @@ sun/tools/jstat/jstatGcOldOutput1.sh 440 linux-arm
 tools/pack200/TestExceptions.java 440 linux-arm
 sun/tools/jstack/BasicJStackTest.java 440 linux-arm
 tools/launcher/Settings.java 440 linux-arm
-
-############################################################################
-
-# jdk_jdi
 
 ############################################################################
 
