@@ -88,6 +88,11 @@ java/lang/Double/ParseDouble.java 440 linux-arm
 java/lang/invoke/VarHandles/VarHandleTestAccessChar.java 440 linux-arm
 java/lang/invoke/VarHandles/VarHandleTestAccessShort.java 440 linux-arm
 sun/misc/CopyMemory.java 440 linux-arm
+java/lang/StackWalker/LocalsAndOperands.javaa 440 linux-arm
+java/lang/String/concat/ImplicitStringConcatAssignLHS.javaa 440 linux-arm
+java/lang/String/concat/ImplicitStringConcatOrder.javaa 440 linux-arm
+java/lang/invoke/FilterArgumentsTest.javaa 440 linux-arm
+jdk/internal/reflect/CallerSensitive/CheckCSMs.java 440 linux-arm
 
 ############################################################################
 
@@ -292,6 +297,7 @@ com/sun/jdi/CatchAllTest.sh 440 linux-arm
 com/sun/jdi/JdbLockTest.sh 440 linux-arm
 com/sun/jdi/NullLocalVariable.sh 440 linux-arm
 com/sun/jdi/RedefineClasses.sh 440 linux-arm
+com/sun/jdi/SimulResumerTest.java 440 linux-arm
 
 ############################################################################
 
@@ -787,7 +793,11 @@ java/time/tck/java/time/serial/TCKYearMonthSerialization.java 440 linux-arm
 java/time/tck/java/time/serial/TCKPeriodSerialization.java 440 linux-arm
 java/time/tck/java/time/serial/TCKOffsetTimeSerialization.java 440 linux-arm
 java/time/tck/java/time/serial/TCKOffsetDateTimeSerialization.java 440 linux-arm
-
+java/time/tck/java/time/serial/TCKDurationSerialization.java 440 linux-arm
+java/time/tck/java/time/serial/TCKYearSerialization.java 440 linux-arm
+java/time/tck/java/time/serial/TCKZoneIdSerialization.java 440 linux-arm
+java/time/tck/java/time/serial/TCKZonedDateTimeSerialization.java  440 linux-arm
+ 
 ############################################################################
 
 # jdk_tools
@@ -1053,6 +1063,10 @@ java/util/ResourceBundle/modules/layer/run.sh 440 linux-arm
 java/util/ResourceBundle/modules/simple/simple.sh 440 linux-arm
 java/util/Spliterator/SpliteratorTraversingAndSplittingTest.java 440 linux-arm
 java/util/concurrent/ConcurrentHashMap/ConcurrentAssociateTest.java 440 linux-arm
+java/util/ResourceBundle/Bug4396021.java 440 linux-arm
+java/util/logging/LogManager/Configuration/rootLoggerHandlers/BadRootLoggerHandlers.java 440 linux-arm
+java/util/logging/LogManager/Configuration/rootLoggerHandlers/RootLoggerHandlers.java 440 linux-arm
+sun/util/calendar/zi/TestZoneInfo310.java 440 linux-arm
 
 ############################################################################
 
