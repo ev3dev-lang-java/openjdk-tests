@@ -10,18 +10,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# This Dockerfile in thirdpart_containers/jenkins/dockerfile dir is used to create an image with
+# This Dockerfile in thirdparty_containers/kafka/dockerfile dir is used to create an image with
 # AdoptOpenJDK jdk binary installed. Basic test dependent executions
 # are installed during the building process.
 #
-# Build example: `docker build -t adoptopenjdk-jenkins-test .`
+# Build example: `docker build -t adoptopenjdk-kafka-test .`
 #
 # This Dockerfile builds image based on adoptopenjdk/openjdk8:latest.
 # If you want to build image based on other images, please use
 # `--build-arg list` to specify your base image
 #
-# Build example: `docker build --build-arg IMAGE_NAME=<image_name> --build-arg IMAGE_VERSION=<image_version >-t adoptopenjdk-jenkins-test .`
-
+# Build example: `docker build --build-arg IMAGE_NAME=<image_name> --build-arg IMAGE_VERSION=<image_version >-t adoptopenjdk-kafka-test .`
+ 
 ARG SDK=openjdk8
 ARG IMAGE_NAME=adoptopenjdk/$SDK
 ARG IMAGE_VERSION=latest
@@ -42,27 +42,30 @@ RUN apt-get update \
 	vim \
 	wget
 
-# Install Maven
-RUN mkdir -p /usr/share/maven \
-	&& cd /usr/share/maven \
-	&& wget --no-check-certificate --no-cookies https://archive.apache.org/dist/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.zip \
-	&& unzip apache-maven-3.5.3-bin.zip \
-	&& rm -rf apache-maven-3.5.3-bin.zip \
-	&& ln -s /usr/share/maven/apache-maven-3.5.3/bin/mvn /usr/bin/mvn \
-	&& cd /
+#Install Gradle
+RUN mkdir -p /usr/share/gradle \
+         && cd /usr/share/gradle \
+         && wget -q https://services.gradle.org/distributions/gradle-4.5-bin.zip \
+         && unzip -qq gradle-4.5-bin.zip \
+         && rm -rf gradle-4.5-bin.zip \
+         && ln -s /usr/share/gradle/gradle-4.5/bin/gradle /usr/bin/gradle \
+         && cd /
+
+RUN cd .
 
 VOLUME ["/java"]
 ENV JAVA_HOME=/java \
     PATH=/java/bin:$PATH \
     JAVA_TOOL_OPTIONS="-Dfile.encoding=UTF8"
 
-# This is the main script to run jenkins tests
-COPY ./dockerfile/jenkins-test.sh /jenkins-test.sh
+# This is the main script to run kafka tests. 
+COPY ./dockerfile/kafka-test.sh /kafka-test.sh
 
-# Clone jenkins src to /jenkins
+# Clone the repo where kafka tests reside.
 WORKDIR /
 RUN pwd
-RUN git clone https://github.com/jenkinsci/jenkins.git
 
-ENTRYPOINT ["/bin/bash", "/jenkins-test.sh"]
+RUN git clone https://github.com/apache/kafka.git
+
+ENTRYPOINT ["/bin/bash", "/kafka-test.sh"]
 CMD ["--version"]

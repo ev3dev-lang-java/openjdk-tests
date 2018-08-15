@@ -12,7 +12,7 @@
 # limitations under the License.
 #
 
-#Set up Java to be used by the elasticsearch-test
+#Set up Java to be used by the kafka-test
 
 if [ -d /java/jre/bin ];then
 	echo "Using mounted Java8"
@@ -45,29 +45,17 @@ type -p java
 echo "java -version is: \n"
 java -version
 
-# Initial command to trigger the execution of elasticsearch test 
-cd /elasticsearch
+# Initial command to trigger the execution of kafka test
+cd /kafka
 ls .
 pwd
 
-# $JAVA_HOME/bin/jps is not available in OpenJ9. Hence creating a dummy jps file in the case of OpenJ9
+echo "Building kafka  using gradle" && \
+gradle -q
+./gradlew jar
 
-ver=`"$JAVA_HOME"/bin/java -version`
+echo "Kafka Build - Completed"
 
+echo "Running (ALL) Kafka tests :"
 
-if [[ "Eclipse OpenJ9 VM" =~ "$ver" ]]
-then
- echo " " > "$JAVA_HOME"/bin/jps;
- `chmod +x "$JAVA_HOME"/bin/jps;`
-fi
-
-
-echo "Building elasticsearch  using gradle \"gradle assemble\"" && \
-gradle -g /tmp assemble
-
-
-echo "Elasticsearch Build - Completed"
-
-echo "Running elasticsearch tests :"
-./gradlew -g /tmp test
-
+./gradlew testAll
