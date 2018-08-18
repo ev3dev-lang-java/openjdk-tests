@@ -22,6 +22,58 @@
 
 # jdk_lang
 
+java/lang/Character/CharacterName.java 440 linux_arm
+java/lang/Character/CheckUnicode.java 440 linux_arm
+java/lang/Class/getDeclaredField/FieldSetAccessibleTest.java 440 linux_arm
+java/lang/ClassLoader/nativeLibrary/NativeLibraryTest.java 440 linux_arm
+java/lang/Double/ParseDouble.java 440 linux_arm
+java/lang/Integer/ToString.java 440 linux_arm
+java/lang/invoke/condy/CondyWithGarbageTest.java 440 linux_arm
+java/lang/invoke/StringConcatFactory/BasicTest.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestAccessByte.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestAccessDouble.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestAccessInt.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestAccessShort.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestByteArrayAsDouble.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestByteArrayAsFloat.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestByteArrayAsShort.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessBoolean.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessChar.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessFloat.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessLong.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestMethodTypeBoolean.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestMethodHandleAccessString.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestMethodTypeDouble.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestMethodTypeInt.java 440 linux_arm
+java/lang/invoke/VarHandles/VarHandleTestMethodTypeShort.java 440 linux_arm
+java/lang/invoke/AccessControlTest.java 440 linux_arm
+java/lang/invoke/BigArityTest.java 440 linux_arm
+java/lang/invoke/ClassValueTest.java 440 linux_arm
+java/lang/invoke/MethodHandlesAsCollectorTest.java 440 linux_arm
+java/lang/invoke/PermuteArgsTest.java 440 linux_arm
+java/lang/invoke/TestCatchExceptionWithVarargs.java 440 linux_arm
+java/lang/Long/ToString.java 440 linux_arm
+java/lang/Math/CubeRootTests.java 440 linux_arm
+java/lang/module/ModuleReader/ModuleReaderTest.java 440 linux_arm
+java/lang/ProcessBuilder/DestroyTest.java 440 linux_arm
+java/lang/ProcessHandle/Basic.java 440 linux_arm
+java/lang/ProcessBuilder/Basic.java 440 linux_arm
+java/lang/ProcessHandle/PermissionTest.java 440 linux_arm
+java/lang/ref/OOMEInReferenceHandler.java 440 linux_arm
+java/lang/reflect/PublicMethods/PublicMethodsTest.java 440 linux_arm
+java/lang/StackWalker/LocalsAndOperands.java#id1 440 linux_arm
+java/lang/String/concat/ImplicitStringConcatManyLongs.java 440 linux_arm
+java/lang/String/nativeEncoding/StringPlatformChars.java 440 linux_arm
+java/lang/String/LiteralReplace.java 440 linux_arm
+java/lang/String/Split.java 440 linux_arm
+java/lang/String/ToLowerCase.java 440 linux_arm
+java/lang/StringBuffer/IndexOf.java 440 linux_arm
+java/lang/System/LoggerFinder/internal/backend/LoggerFinderBackendTest.java 440 linux_arm
+java/lang/System/LoggerFinder/modules/JDKLoggerForImageTest.java 440 linux_arm
+java/lang/System/LoggerFinder/modules/LoggerInImageTest.java 440 linux_arm
+java/lang/System/LoggerFinder/modules/NamedLoggerForJDKTest.java 440 linux_arm
+java/lang/System/LoggerFinder/modules/UnnamedLoggerForJDKTest.java 440 linux_arm
+
 ############################################################################
 
 # jdk_management
@@ -34,7 +86,10 @@
 
 # jdk_math
 
+java/math/BigDecimal/DivideMcTests.java 440 linux_arm
+java/math/BigInteger/ModPow.java 440 linux_arm
 java/math/BigInteger/PrimeTest.java 440 linux_arm
+java/math/BigInteger/PrimitiveConversionTests.java 440 linux_arm
 
 ############################################################################
 
